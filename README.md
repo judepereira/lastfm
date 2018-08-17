@@ -1,2 +1,2 @@
 # lastfm
-A LastFM OMG compliant service written in Node
+A LastFM OMG compliant service written in Node.

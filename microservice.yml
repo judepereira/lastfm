@@ -1,0 +1,19 @@
+commands:
+    recommend:
+        help: Get recommendations for a song. 
+        arguments:
+            title:
+                type: string
+                required: true
+            artist:
+                type: string
+                required: true
+            limit:
+                help: Use to limit recommendations. Defaults to 5.
+                type: int
+                required: false
+        http:
+            method: post
+            path: /recommendations
+        output:
+            type: map
